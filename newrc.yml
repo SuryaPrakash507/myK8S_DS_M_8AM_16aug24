@@ -5,11 +5,11 @@ metadata:
 spec:
  replicas: 2
  selector: 
-  type: tcontainer
+  app: tcontainer
 template:
  metadata:
   labels: 
-   type: tcontainer
+   app: tcontainer
  spec:
   containers:
    - name: tomcatcontainer
